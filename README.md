@@ -1,8 +1,6 @@
-![rb-logo](./logo.svg)
+<img src="./logo.svg" alt="Logo" style="text-align: center">
 
 # React Boilerplate
-
----
 
 Simple, but cool frontend boilerplate starter for React.
 
