@@ -35,4 +35,4 @@ Simple, but cool frontend boilerplate starter for React.
 
 ## License
 
-Not yet licensed. (will be updated soon)
+[MIT License](https://github.com/hoondeveloper/react-boilerplate/blob/main/LICENSE)
