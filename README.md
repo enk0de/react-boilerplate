@@ -1,4 +1,7 @@
-<div style="text-align: center"><img src="./logo.svg" alt="Logo"></div>
+<div align="center">
+  <img src="./logo.svg" width="540px">
+</div>
+
 
 # React Boilerplate
 
