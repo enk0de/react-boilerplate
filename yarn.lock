@@ -4999,7 +4999,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.8.0":
+"enhanced-resolve@npm:^5.0.0, enhanced-resolve@npm:^5.8.0":
   version: 5.8.2
   resolution: "enhanced-resolve@npm:5.8.2"
   dependencies:
@@ -8100,7 +8100,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
+"micromatch@npm:^4.0.0, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "micromatch@npm:4.0.4"
   dependencies:
@@ -9528,6 +9528,7 @@ fsevents@^1.2.7:
     react-dom: ^17.0.2
     react-refresh: ^0.10.0
     terser-webpack-plugin: ^5.1.2
+    ts-loader: ^9.2.3
     type-fest: ^1.1.3
     typescript: ^4.2.4
     url-loader: ^4.1.1
@@ -10133,7 +10134,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.1.2, semver@npm:^7.2.1, semver@npm:^7.3.2, semver@npm:^7.3.5":
+"semver@npm:^7.1.2, semver@npm:^7.2.1, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5":
   version: 7.3.5
   resolution: "semver@npm:7.3.5"
   dependencies:
@@ -11061,6 +11062,21 @@ fsevents@^1.2.7:
   version: 3.0.1
   resolution: "trim-newlines@npm:3.0.1"
   checksum: a1cc3d5992d47349fa0b48206038e524f42d0ade81913cc72322e4f5a99c5e936eb730af762c9f5bafa3c19ab1e9eaf14bdff487cbe3f2c5d525dd03f3f89fb0
+  languageName: node
+  linkType: hard
+
+"ts-loader@npm:^9.2.3":
+  version: 9.2.3
+  resolution: "ts-loader@npm:9.2.3"
+  dependencies:
+    chalk: ^4.1.0
+    enhanced-resolve: ^5.0.0
+    micromatch: ^4.0.0
+    semver: ^7.3.4
+  peerDependencies:
+    typescript: "*"
+    webpack: ^5.0.0
+  checksum: 10727f5b0e773e2e28196c7e527646690324b99d4e44fac1e12d685b39fbe3530a04e71de396b1c572c462cb3318d6884deca7d091f47173a625b26cda7e28b0
   languageName: node
   linkType: hard
 
